@@ -128,11 +128,11 @@ p {
 .portfolio__item, .portfolio__item img, .portfolio__item-mask {
     height: auto;
     vertical-align: top;
-    transition: all ease .5s;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    -ms-transition: all ease .5s;
-    -o-transition: all ease .5s;
+    transition: all ease-in-out .2s;
+    -webkit-transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -ms-transition: all ease-in-out .2s;
+    -o-transition: all ease-in-out .2s;
 }
 .portfolio__item:hover {
     filter:none;
