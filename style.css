@@ -128,11 +128,11 @@ p {
 .portfolio__item img, .portfolio__item-mask {
     height: auto;
     vertical-align: top;
-    transition: all ease-in-out 2s;
-    -webkit-transition: all ease-in-out 2s;
-    -moz-transition: all ease-in-out 2s;
-    -ms-transition: all ease-in-out 2s;
-    -o-transition: all ease-in-out 2s;
+    transition: all ease-in-out 1s;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    -ms-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
 }
 .portfolio__item img {
     transition: all ease-in-out .5s;
