@@ -362,7 +362,8 @@ p {
     width: 100%
 }
 .portfolio__item {
-    margin: 0 auto
+    margin: 0 auto;
+    display: block
 }
 .portfolio__title {
     position: relative;
