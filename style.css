@@ -120,7 +120,7 @@ p {
 .portfolio__item {
     position: relative;
     display: inline-block;
-    max-width: 350px;
+    max-width: 400px;
     width: 50%;
     background: #F9F9F9;
     overflow: hidden
@@ -353,6 +353,9 @@ p {
 }
 .portfolio__box, .portfolio__item {
     width: 100%
+}
+.portfolio__item {
+    margin: 0 auto
 }
 .portfolio__title {
     position: relative;
