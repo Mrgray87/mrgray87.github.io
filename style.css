@@ -62,12 +62,13 @@ p {
 /* Services */
 .services__inner {
     margin: 0 -5px;
+    text-align: center;
 }
 .services__item-wrap {
     display: inline-block;
     margin: 0 0 10px;
     padding: 0 5px;    
-    width: 25%
+    width: 30%
     
 }
 .services__item {
@@ -120,26 +121,19 @@ p {
 .portfolio__item {
     position: relative;
     display: inline-block;
-    max-width: 400px;
+    max-width: 350px;
     width: 50%;
     background: #F9F9F9;
     overflow: hidden
 }
-.portfolio__item img, .portfolio__item-mask {
+.portfolio__item, .portfolio__item img, .portfolio__item-mask {
     height: auto;
     vertical-align: top;
-    transition: all ease-in-out 1s;
-    -webkit-transition: all ease-in-out 1s;
-    -moz-transition: all ease-in-out 1s;
-    -ms-transition: all ease-in-out 1s;
-    -o-transition: all ease-in-out 1s;
-}
-.portfolio__item img {
-    transition: all ease-in-out .5s;
-    -webkit-transition: all ease-in-out .5s;
-    -moz-transition: all ease-in-out .5s;
-    -ms-transition: all ease-in-out .5s;
-    -o-transition: all ease-in-out .5s;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    -o-transition: all ease .5s;
 }
 .portfolio__item:hover {
     filter:none;
@@ -359,11 +353,11 @@ p {
     margin-bottom: 50px
 }
 .portfolio__box, .portfolio__item {
-    width: 100%
+    max-width: 100%;
+    width: 100%;
 }
-.portfolio__item {
-    margin: 0 auto;
-    display: block
+.portfolio__item img {
+    width: 100%;
 }
 .portfolio__title {
     position: relative;
